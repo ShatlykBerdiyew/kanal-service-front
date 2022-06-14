@@ -59,8 +59,6 @@ const App = () => {
     setSelectedPage(1);
   };
 
-  console.log("Selected Row: ", selectedRow);
-
   return (
     <div className="container">
       {/*  ------------------------Начало  фильтрации  -------------------------------------*/}
