@@ -1,0 +1,23 @@
+table {
+  margin-top: 20px;
+  width: min-content;
+  margin: auto;
+}
+
+table thead {
+  background-color: black;
+  color: white;
+}
+
+thead tr th {
+  padding: 5px 40px;
+}
+
+tbody tr td {
+  text-align: center;
+  padding: 3px 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
